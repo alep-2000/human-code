@@ -23,29 +23,31 @@ PROBLEMA: Fare la spesa seguendo una lista
 
 10 - Inserire i prodotti nel carrello
 
-11 - ? SE le crocchette sono presenti nel carrello
+11 - ? SE tutti i prodotti della lista sono presenti nel carrello
 
-    11.1 - ? SE tutti i prodotti della lista sono presenti nel carrello
+    11.1 - Andare avanti
 
-        11.1.1 - Andare in cassa
+12 - ALTRIMENTI: Cercare prodotti della lista mancanti
 
-    11.2 - ALTRIMENTI: Cercare prodotti della lista mancanti
+13 - ? SE le crocchette sono presenti nel carrello
 
-12 - ALTRIMENTI: Cerca le crocchette per Ricky
+    13.2 - Andare in cassa
 
-13 - Usare il coupon in cassa
+14 - ALTRIMENTI: Cerca le crocchette per Ricky
 
-14 - Prendere il portafoglio dalla tasca
+15 - Usare il coupon in cassa
 
-15 - Pagare la parte rimanente in contanti
+16 - Prendere il portafoglio dalla tasca
 
-16 - ? SE avanzano contanti
+17 - Pagare la parte rimanente in contanti
 
-    16.1 - Prendere snack extra
-    16.2 - Pagare gli snack
+18 - ? SE avanzano contanti
 
-17 - ALTRIMENTI: non prendere gli snack extra
+    18.1 - Prendere snack extra
+    18.2 - Pagare gli snack
 
-18 - Uscire dal supermercato
+19 - ALTRIMENTI: non prendere gli snack extra
 
-19 - SPESA EFFETTUATA
+20 - Uscire dal supermercato
+
+21 - SPESA EFFETTUATA
